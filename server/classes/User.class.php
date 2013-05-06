@@ -1,6 +1,6 @@
 <?php
-include_once("/Applications/XAMPP/xamppfiles/htdocs/www/pachabhaiya.com/c/source.code/cp.webservices/server/configuration.php");
-require_once("/Applications/XAMPP/xamppfiles/htdocs/www/pachabhaiya.com/c/source.code/cp.webservices/server/classes/Db.class.php");
+require_once("configuration.php");
+require_once("classes/Db.class.php");
 class User extends Db
 {
 	public function __construct()

@@ -7,7 +7,7 @@ ini_set("soap.wsdl_cache_enabled","0");
 
 $client = new SoapClient("http://localhost/www/pachabhaiya.com/c/source.code/cp.webservices/server/wsdl.php?wsdl");
 
-$adduser = $client->AddUser(2, 'admin', 'adminpass', 'Chhabi Pachabhaiya');
+$adduser = $client->AddUser(1, 'admin', 'adminpass', 'Chhabi Pachabhaiya');
 print_r($adduser);
 
 echo "<br><br>";
